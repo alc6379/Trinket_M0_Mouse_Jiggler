@@ -2,4 +2,4 @@
 
 
 cp code.py /Volumes/CIRCUITPY/
-rsync -rav lib /Volumes/CIRCUITPY/lib --exclude "lib/.DS_Store"
+rsync -rav --delete lib /Volumes/CIRCUITPY/ --exclude "lib/.DS_Store"
